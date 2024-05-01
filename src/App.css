@@ -111,5 +111,30 @@ transform: rotateY(180deg);
         width: 70%;
         height: 70%;
     }
-    
+
+   
+    @media (min-width: 120px) and ( max-width:374px){
+.card-block{
+    width: 70px;
+    height: 70px;
+}
+.contain{
+    width: 329px;
+}
+.memory-card-blocks{
+    width: 348px;
+}
+    }
+    @media (min-width: 375px) and ( max-width:460px){
+        .card-block{
+            width: 84px;
+            height: 84px;
+        }
+        .contain{
+            width: 329px;
+        }
+        .memory-card-blocks{
+            width: 367px;
+        }
+            }
 
